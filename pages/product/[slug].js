@@ -84,7 +84,7 @@ function ProductDetails({ product, products }) {
                 <div className="marquee">
                     <div className="maylike-products-container track">
                         {products.map((item) => (
-                            <Product key={item.slug} product={item} />
+                            <Product key={item._id} product={item} />
                         ))}
                     </div>
                 </div>
