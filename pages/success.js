@@ -9,7 +9,7 @@ const Success=()=> {
     const {setCartItems,setTotalQuantities,setTotalPrice}=useStateContext()
 
     useEffect(()=>{
-        localStorage.clear()
+        // localStorage.clear()
         setCartItems([])
         setTotalQuantities(0)
         setTotalPrice(0)

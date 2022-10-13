@@ -1,4 +1,3 @@
-import { imageConfigDefault } from "next/dist/server/image-config";
 import React, { useState } from "react";
 import { client, urlFor } from "../../lib/client";
 import {
@@ -19,6 +18,7 @@ function ProductDetails({ product, products }) {
         onAdd(product,qty)
         setShowCart(true)
     }
+    // console.log(product)
     return (
         <div>
             <div className="product-detail-container">
